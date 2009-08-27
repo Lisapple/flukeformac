@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	0A065EDC1043B19900BB687A /* Fluke */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Fluke;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	0A3C063F1045FD5B00748A17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 22";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 0;
+	};
+	0A3EDD2F1044A71B00E5A4E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
+		name = "FlukeAppDelegate.py: 14";
+		rLen = 0;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	0A3EDD5A1044A90500E5A4E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 43";
+		rLen = 0;
+		rLoc = 1564;
+		rType = 0;
+		vrLen = 1090;
+		vrLoc = 729;
+	};
+	0A54A2381043AD3600E9B83B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
+		name = "FlukeAppDelegate.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 0;
+	};
+	0A54A2731043ADD500E9B83B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0A54A2741043ADD500E9B83B /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	0A54A2741043ADD500E9B83B /* __init__.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = __init__.py;
+		path = /Users/dmitry/Developer/Fluke/mutagen/__init__.py;
+		sourceTree = "<absolute>";
+	};
+	0A54A2781043ADD500E9B83B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0A54A2791043ADD500E9B83B /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	0A54A2791043ADD500E9B83B /* __init__.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = __init__.py;
+		path = /Users/dmitry/Developer/Fluke/mutagen/__init__.py;
+		sourceTree = "<absolute>";
+	};
+	0A930603104393CC000F2341 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	0A930604104393CC000F2341 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0A9306D9104395B7000F2341 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	0A9306DA104395B7000F2341 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 0;
+	};
+	0AA84A1E1045DAB400814845 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 22";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0A065EDC1043B19900BB687A /* Fluke */;
+		activeTarget = 8D1107260486CEB800E47090 /* Fluke */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Fluke */,
+		);
+		codeSenseManager = 0A930604104393CC000F2341 /* Code sense */;
+		executables = (
+			0A065EDC1043B19900BB687A /* Fluke */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					194,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					663,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273013441;
+			PBXWorkspaceStateSaveDate = 273013441;
+		};
+		perUserProjectItems = {
+			0A3C063F1045FD5B00748A17 /* PBXTextBookmark */ = 0A3C063F1045FD5B00748A17 /* PBXTextBookmark */;
+			0A3EDD2F1044A71B00E5A4E4 /* PBXTextBookmark */ = 0A3EDD2F1044A71B00E5A4E4 /* PBXTextBookmark */;
+			0A3EDD5A1044A90500E5A4E4 /* PBXTextBookmark */ = 0A3EDD5A1044A90500E5A4E4 /* PBXTextBookmark */;
+			0A54A2381043AD3600E9B83B /* PBXTextBookmark */ = 0A54A2381043AD3600E9B83B /* PBXTextBookmark */;
+			0A54A2731043ADD500E9B83B /* PBXTextBookmark */ = 0A54A2731043ADD500E9B83B /* PBXTextBookmark */;
+			0A54A2781043ADD500E9B83B /* PBXTextBookmark */ = 0A54A2781043ADD500E9B83B /* PBXTextBookmark */;
+			0A9306D9104395B7000F2341 /* PBXTextBookmark */ = 0A9306D9104395B7000F2341 /* PBXTextBookmark */;
+			0A9306DA104395B7000F2341 /* PBXTextBookmark */ = 0A9306DA104395B7000F2341 /* PBXTextBookmark */;
+			0AA84A1E1045DAB400814845 /* PBXTextBookmark */ = 0AA84A1E1045DAB400814845 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0A930603104393CC000F2341 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1596, 850}}";
+			sepNavSelRange = "{1564, 0}";
+			sepNavVisRange = "{729, 1090}";
+		};
+	};
+	77631A3E0C0748CF005415CB /* main.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {841, 447}}";
+			sepNavSelRange = "{426, 0}";
+			sepNavVisRange = "{0, 496}";
+			sepNavWindowFrame = "{{19, 213}, {1161, 556}}";
+		};
+	};
+	7790198E0C07548A00326F66 /* FlukeAppDelegate.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 470}}";
+			sepNavSelRange = "{314, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Fluke */ = {
+		activeExec = 0;
+		executables = (
+			0A065EDC1043B19900BB687A /* Fluke */,
+		);
+	};
+}
