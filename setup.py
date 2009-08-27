@@ -24,7 +24,7 @@ OPTIONS = {'argv_emulation': True,
            'CFBundleInfoDictionaryVersion': '6.0',
            'CFBundleName': 'Fluke',
            'CFBundlePackageType': 'APPL',
-           'CFBundleShortVersionString': '0.2.0',
+           'CFBundleShortVersionString': '0.2.1',
            'IsDroppable': True,
            'NSHumanReadableCopyright': 'Copyright not specified'}}
 
