@@ -1,12 +1,10 @@
-#from appscript import *
-#from mutagen.flac import *
-
-#import FlukeFiles, FlukeItunes
-
+"""
+Main Fluke class. Accepts a string or a list of files upon initiation.
+"""
 __all__ = ['itunes']
 
 import sys,os
-import itunes
+import itunes, EasyDialogs
 
 class FLAC(object):
     def __init__(self,files=None):
@@ -17,8 +15,12 @@ class FLAC(object):
             self.fileList = self.processFiles(files)
 
     def itunesAdd(self):
+        """Add processed tracks to iTunes"""
         for f in self.fileList:
-            itunes.add(f)
+            self.setFileTypeToOggs(f)
+            if itunes.add(f) == False:
+                print "Couldn't add the file(s). Please restart iTunes or reinstall Fluke."
+                return False
     
     def files(self,files=None):
         """Get and set list of files to process"""
@@ -38,7 +40,6 @@ class FLAC(object):
                 
                 results.extend(flacs)
             else: 
-                #self.iTunesAdd(f)
                 results.append(f)
 
         return results
@@ -53,7 +54,23 @@ class FLAC(object):
         else:
             return list(args)
 
+    def setFileTypeToOggs(self,fn):
+        """Set filetype to OggS to allow playback in iTunes"""
+        from Carbon import File, Files
+
+        fl, is_dir = File.FSPathMakeRef(fn)
+        if is_dir:
+            return False
+        ci, _fn, fsspc, pfl = fl.FSGetCatalogInfo(Files.kFSCatInfoFinderInfo)
+
+        finfo = fsspc.FSpGetFInfo()
+        finfo.Type = 'OggS'
+
+        fsspc.FSpSetFInfo(finfo)
+        return True
+
     def openFileDialog(self):
+        """Currently unused and really belongs in the Controller"""
         panel = NSOpenPanel.openPanel()
         panel.setCanCreateDirectories_(True)
         panel.setCanChooseDirectories_(True)
