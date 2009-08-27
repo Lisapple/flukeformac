@@ -27,3 +27,6 @@ if __name__ == "__main__":
 
     files = fluke.FLAC(sys.argv)
     files.itunesAdd()
+
+    if "--convert" in sys.argv:
+        files.itunesConvert()

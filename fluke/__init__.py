@@ -8,7 +8,8 @@ import itunes, EasyDialogs
 
 class FLAC(object):
     def __init__(self,files=None):
-        self.fileList = []
+        self.fileList = [] # list of paths to files
+        self.fileListItunes = [] # references to tracks within iTunes
 
         if files:
             files = self.checkArgs(files)
@@ -18,10 +19,24 @@ class FLAC(object):
         """Add processed tracks to iTunes"""
         for f in self.fileList:
             self.setFileTypeToOggs(f)
-            if itunes.add(f) == False:
+            i = itunes.add(f) 
+
+            if i:
+                self.fileListItunes.append(i)
+            else:
                 print "Couldn't add the file(s). Please restart iTunes or reinstall Fluke."
                 return False
     
+    def itunesConvert(self):
+        """Convert added files to iTunes"""
+        originalEnc = itunes.getEncoder() # save user's encoder and switch to lossless
+        itunes.setEncoder( itunes.getEncoder('lossless') )
+
+        for f in self.fileListItunes:
+            itunes.convert(f, delete=True)
+
+        itunes.setEncoder(originalEnc) # set the encoder back to w/e user had it set to
+
     def files(self,files=None):
         """Get and set list of files to process"""
         if files:
@@ -40,7 +55,8 @@ class FLAC(object):
                 
                 results.extend(flacs)
             else: 
-                results.append(f)
+                if os.path.isfile(f):
+                    results.append(f)
 
         return results
 
