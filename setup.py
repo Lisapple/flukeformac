@@ -8,9 +8,9 @@ Usage:
 from setuptools import setup
 
 APP = ['FlukeController.py']
-DATA_FILES = ['./resources/Fluke-Flac.icns']
+DATA_FILES = [ './resources/Fluke-Flac.icns']
 OPTIONS = {'argv_emulation': True,
- 'iconfile': './resources/Fluke.icns',
+ 'iconfile': '/Users/dmitry/Developer/flukeformac/Fluke.icns',
  'plist': {'CFBundleDocumentTypes': [{'CFBundleTypeExtensions': ['flac'],
                                       'CFBundleTypeIconFile': 'Fluke-Flac.icns',
                                       'CFBundleTypeMIMETypes': ['audio/flac',

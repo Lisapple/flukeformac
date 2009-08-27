@@ -1,3 +1,5 @@
+# Cleans out system from traces of Fluke
+
 echo Deleting Fluke and its libraries..
 rm -rf ./dist/Fluke.app
 rm -rf /Applications/Fluke.app
@@ -9,5 +11,5 @@ echo Cleaning up the application associations..
 
 echo Relaunching Finder
 killall Finder && open /System/Library/CoreServices/Finder.app
-echo Done
+echo Ok. Done. Phew.
 
