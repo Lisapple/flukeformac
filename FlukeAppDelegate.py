@@ -8,6 +8,8 @@
 
 from Foundation import *
 from AppKit import *
+import sys
+from FlukeController import *
 
 class FlukeAppDelegate(NSObject):
     def applicationDidFinishLaunching_(self, sender):

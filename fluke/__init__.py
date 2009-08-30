@@ -4,7 +4,7 @@ Main Fluke class. Accepts a string or a list of files upon initiation.
 __all__ = ['itunes']
 
 import sys,os
-import itunes, EasyDialogs
+import itunes
 
 class FLAC(object):
     def __init__(self,files=None):
@@ -84,17 +84,6 @@ class FLAC(object):
 
         fsspc.FSpSetFInfo(finfo)
         return True
-
-    def openFileDialog(self):
-        """Currently unused and really belongs in the Controller"""
-        panel = NSOpenPanel.openPanel()
-        panel.setCanCreateDirectories_(True)
-        panel.setCanChooseDirectories_(True)
-        panel.setCanChooseFiles_(True)
-        panel.setAllowsMultipleSelection_(True)
-        if panel.runModalForTypes_(('flac',)) == NSOKButton:
-            return panel
-        return 
 
     def __str__(self):
         return str(self.fileList)

@@ -1,32 +1,66 @@
 """
 Fluke controller for Xcode and py2app
 """
+# PyObjC modules
+import objc
+from Foundation import *
+from AppKit import *
+
+from PyObjCTools import AppHelper
 
 import sys,os
-# py2app fix - make sure we're going to find those third part libs
-resPath = sys.argv[0].split("/")
-resPath.pop()
-sys.path.insert( 0, os.path.join('/'.join([a for a in resPath]), 'lib', 'python2.5', 'lib-dynload') )
 
-# PyObjC modules
-#import objc
-#from Foundation import *
-#from AppKit import *
+# py2app fix - make sure we're going to find those third part libs
+#resPath = sys.argv[0].split("/")
+#resPath.pop()
+#sys.path.insert( 0, os.path.join('/'.join([a for a in resPath]), 'lib', 'python2.5', 'lib-dynload') )
 
 import fluke 
 
-if __name__ == "__main__":
-    #[sys.argv.append(f) for f in files]
+class FlukeController(NSObject):
+
+    mainWindow = objc.IBOutlet()
     
-    # Remove the script itself as an argument
-    del(sys.argv[0])
+    checkboxDelete = objc.IBOutlet()
+    
+    def awakeFromNib(self):
+        import flukeapp
 
-    # Clean up the -psn argument Finder adds
-    for s in sys.argv:
-        if s.startswith('-psn'): del(sys.argv[0])
+        NSLog(str(self.mainWindow.canBecomeMainWindow()))
 
-    files = fluke.FLAC(sys.argv)
-    files.itunesAdd()
+        sys.argv = flukeapp.cleanUpSysArgs(sys.argv)
+        NSLog('System arguments: ' + str(sys.argv))
+        
+        # Open fileOpen dialog if no files were fed in
+        #self.processFiles(sys.argv)
+        
+    @objc.IBAction
+    def open_(self, sender):
+        panel = NSOpenPanel.openPanel()
+        panel.setCanChooseDirectories_(True)
+        panel.setAllowsMultipleSelection_(True)
+        panel.beginSheetForDirectory_file_types_modalForWindow_modalDelegate_didEndSelector_contextInfo_(
+             '~/', None, ('flac',), self.mainWindow,
+             self, 'openPanelDidEnd:panel:returnCode:contextInfo:', 0)
+             
+    @objc.IBAction
+    def toggleConversion_(self,sender):
+        NSLog(str(sender.state()))
+        if sender.state() == 1:
+            self.checkboxDelete.setEnabled_(True)
+        else:
+            self.checkboxDelete.setState_(0)
+            self.checkboxDelete.setEnabled_(False)
 
-    if "--convert" in sys.argv:
-        files.itunesConvert()
+    @AppHelper.endSheetMethod
+    def openPanelDidEnd_panel_returnCode_contextInfo_(self, panel, returnCode, contextInfo):
+        if returnCode:
+            print "Open: %s" % panel.filenames()
+        else:
+            print "Cancel"
+            
+    
+
+        
+if __name__ == "__main__":
+    NSLog("hi!!!")

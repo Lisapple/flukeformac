@@ -7,7 +7,7 @@ Usage:
 
 from setuptools import setup
 
-APP = ['FlukeController.py']
+APP = ['flukeapp.py']
 DATA_FILES = [
  './resources/Fluke-Flac.icns']
 OPTIONS = {'argv_emulation': True,
@@ -24,9 +24,9 @@ OPTIONS = {'argv_emulation': True,
            'CFBundleInfoDictionaryVersion': '6.0',
            'CFBundleName': 'Fluke',
            'CFBundlePackageType': 'APPL',
-           'CFBundleShortVersionString': '0.2.1',
+           'CFBundleShortVersionString': '0.2.2',
            'IsDroppable': True,
-           'NSHumanReadableCopyright': 'Copyright not specified'}}
+           'NSHumanReadableCopyright': '(C)2009 Dmitry Kichenko. Distributed under GPLv3'}}
 
 setup(
     app=APP,

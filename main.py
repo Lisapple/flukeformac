@@ -8,15 +8,14 @@
 
 #import modules required by application
 import objc
-from Foundation import *
-from AppKit import *
+import AppKit
+import Foundation
 
 from PyObjCTools import AppHelper
 
 
 # import modules containing classes required to start application and load MainMenu.nib
-import FlukeAppDelegate
-import fluke
+import FlukeAppDelegate, FlukeController
 
 #f = Fluke.Fluke.alloc().init()
 #f.openFileDialog()

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A54A26E1043AD7800E9B83B /* mutagen in Resources */ = {isa = PBXBuildFile; fileRef = 0A54A2401043AD7800E9B83B /* mutagen */; };
 		0AA84A071045D8D600814845 /* fluke in Resources */ = {isa = PBXBuildFile; fileRef = 0AA84A061045D8D600814845 /* fluke */; };
+		0AAB52A310478F1F009F1D1A /* flukeapp.py in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */; };
+		0AE217DD1047564000E5CADA /* FlukeController.py in Resources */ = {isa = PBXBuildFile; fileRef = 0AE217DC1047564000E5CADA /* FlukeController.py */; };
+		0AE2186E1047731000E5CADA /* Fluke.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0AE2186D1047731000E5CADA /* Fluke.icns */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
 		7790198F0C07548A00326F66 /* FlukeAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */; };
@@ -21,8 +23,10 @@
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A065EDB1043B19900BB687A /* Fluke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluke.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A54A2401043AD7800E9B83B /* mutagen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mutagen; sourceTree = "<group>"; };
 		0AA84A061045D8D600814845 /* fluke */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fluke; sourceTree = "<group>"; };
+		0AAB52A210478F1F009F1D1A /* flukeapp.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = flukeapp.py; sourceTree = "<group>"; };
+		0AE217DC1047564000E5CADA /* FlukeController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = FlukeController.py; sourceTree = "<group>"; };
+		0AE2186D1047731000E5CADA /* Fluke.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Fluke.icns; path = resources/Fluke.icns; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,8 +56,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0AE217DC1047564000E5CADA /* FlukeController.py */,
 				0AA84A061045D8D600814845 /* fluke */,
-				0A54A2401043AD7800E9B83B /* mutagen */,
 				7790198E0C07548A00326F66 /* FlukeAppDelegate.py */,
 			);
 			name = Classes;
@@ -101,6 +105,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0AAB52A210478F1F009F1D1A /* flukeapp.py */,
 				32CA4F630368D1EE00C91783 /* Fluke_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				77631A3E0C0748CF005415CB /* main.py */,
@@ -111,6 +116,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0AE2186D1047731000E5CADA /* Fluke.icns */,
 				77C8C1F70C07829500965286 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -174,8 +180,10 @@
 				77631A3F0C0748CF005415CB /* main.py in Resources */,
 				7790198F0C07548A00326F66 /* FlukeAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
-				0A54A26E1043AD7800E9B83B /* mutagen in Resources */,
 				0AA84A071045D8D600814845 /* fluke in Resources */,
+				0AE217DD1047564000E5CADA /* FlukeController.py in Resources */,
+				0AE2186E1047731000E5CADA /* Fluke.icns in Resources */,
+				0AAB52A310478F1F009F1D1A /* flukeapp.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
