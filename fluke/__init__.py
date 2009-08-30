@@ -48,7 +48,7 @@ class FLAC(object):
         Recurse through dirs if any are given and filter out non-flacs
         """
         results = []
-        for f in files: 
+        for f in files:
             if os.path.isdir(f):
                 flacs = [os.path.join(f,s) for s in os.listdir(f)
                         if os.path.splitext(s)[1] == '.flac']
@@ -61,8 +61,7 @@ class FLAC(object):
         return results
 
     def checkArgs(self,args):
-        """Check if argument was a list or a string. Always return a list"""
-        
+        """Check if argument was a list or a string. Always return a list"""        
         import types
 
         if type(args) == types.StringType:
@@ -74,7 +73,7 @@ class FLAC(object):
         """Set filetype to OggS to allow playback in iTunes"""
         from Carbon import File, Files
 
-        fl, is_dir = File.FSPathMakeRef(fn)
+        fl, is_dir = File.FSPathMakeRef(fn.encode('utf-8'))
         if is_dir:
             return False
         ci, _fn, fsspc, pfl = fl.FSGetCatalogInfo(Files.kFSCatInfoFinderInfo)

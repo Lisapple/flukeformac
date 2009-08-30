@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 """
 Module for dealing with iTunes stuff.
 """
@@ -20,8 +22,7 @@ def add(f):
         metadata = FLAC(f) # metadata pulled from .flac 
     except (FLACNoHeaderError):
         # Lack of proper FLAC header is not necessarily a bad FLAC
-        metadata = {}
-        
+        metadata = {}  
     ASFilePath = getASPath(f) # AppleScript friendly path
     track = itunesApp.add( ASFilePath, to=app.library_playlists[1])
     

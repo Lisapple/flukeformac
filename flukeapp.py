@@ -28,8 +28,9 @@ def cleanUpSysArgs(args):
     del(args[0])
 
     # Clean up the -psn argument Finder adds
-    if len(args) != 0:
-        if args[0].startswith('-psn'): del(args[0])
+    for i in range(len(args)):
+        if args[i].startswith('-psn'): del(f)
+        args[i] = args[i].decode('utf-8')
     
     return args
 
@@ -37,7 +38,6 @@ if __name__ == "__main__":
     sys.argv = cleanUpSysArgs(sys.argv)
     if len(sys.argv) == 0:
         print(__doc__)
-
     files = fluke.FLAC(sys.argv)
     files.itunesAdd()
 
