@@ -3,7 +3,7 @@ Fluke lets you play FLACs in iTunes. This the command line version of it.
 
 USAGE
 
-python flukeapp.py file1[, file2, file3...] [--convert]
+python flukeapp.py file1[ file2 file3...] [--convert]
 
 file1,file2.. can be directories
 
@@ -15,11 +15,6 @@ import sys,os
 resPath = sys.argv[0].split("/")
 resPath.pop()
 sys.path.insert( 0, os.path.join('/'.join([a for a in resPath]), 'lib', 'python2.5', 'lib-dynload') )
-
-# PyObjC modules
-#import objc
-#from Foundation import *
-#from AppKit import *
 
 import fluke 
 

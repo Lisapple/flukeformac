@@ -15,26 +15,24 @@ itunesApp = app(u'iTunes')
 class ItunesReferenceError(Exception): pass
 class ItunesFormatError(Exception): pass
 
-def add(f):
-    """Add tracks to iTunes and assign proper track numbers. Returns reference to added track."""
-    filename = os.path.split(f)[1]
-    try:
-        metadata = FLAC(f) # metadata pulled from .flac 
-    except (FLACNoHeaderError):
-        # Lack of proper FLAC header is not necessarily a bad FLAC
-        metadata = {}  
-    ASFilePath = getASPath(f) # AppleScript friendly path
-    track = itunesApp.add( ASFilePath, to=app.library_playlists[1])
-    
-    # TODO Try to tag after adding for a possible speed gain
-    # If track has a length it's a valid FLAC, so add it. Else, trash
-    if isSong(track):
-		if metadata.has_key('tracknumber'): 
-			setTrackNumber(track, metadata['tracknumber'][0])
-		return track
-    else:
-        deleteTrack(track)
-        raise ItunesFormatError(filename + " is not a FLAC file.")
+def add(files):
+    filesASPaths = [getASPath(f) for f in files]
+    tracks = itunesApp.add( filesASPaths, to=app.library_playlists[1])
+    return tracks
+
+def fixMetadata(files):
+    for path,track in files:
+        try:
+            metadata = FLAC(path) # metadata pulled from .flac 
+        except (FLACNoHeaderError):
+            # Lack of proper FLAC header is not necessarily a bad FLAC
+            metadata = {}
+        if isSong(track):
+            if metadata.has_key('tracknumber'): 
+                setTrackNumber(track, metadata['tracknumber'][0])
+        else:
+            deleteTrack(track)
+            raise ItunesFormatError(filename + " is not a FLAC file.")
 
 def setTrackNumber(track, tracknumber):
     if '/' in tracknumber: # if both the track # and count are given, split them
