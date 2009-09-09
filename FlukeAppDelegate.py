@@ -14,3 +14,6 @@ from FlukeController import *
 class FlukeAppDelegate(NSObject):
     def applicationDidFinishLaunching_(self, sender):
         NSLog("Application finished launching.")
+    
+    def applicationShouldTerminateAfterLastWindowClosed_(self,sender):
+        return True
