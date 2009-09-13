@@ -1,10 +1,12 @@
 """
 Main Fluke class. Accepts a string or a list of files upon initiation.
 """
-__all__ = ['itunes']
+__all__ = ['itunes', 'exceptions']
 
-import sys,os
+import sys,os,types
 import itunes
+from fluke.exceptions import *
+from appscript.reference import CommandError
 
 class FLAC(object):
     def __init__(self,files=None):
@@ -15,19 +17,29 @@ class FLAC(object):
 
     def itunesAdd(self):
         """Add processed tracks to iTunes"""
-        self.setFileTypeToOggs(self.filesPaths())
-        try: tracks = itunes.add( self.filesPaths() ) 
-        except (ItunesFormatError): pass # TODO Bubble up to GUI
+        self.setFileTypeToOggs(self.filesPaths()) # iTunes doesn't eat them files otherwise
 
-        if tracks:
+        try: 
+            tracks = itunes.add( self.filesPaths() ) 
+        except (ItunesFormatError,CommandError) as e: 
+            raise GUIFormatError(e.args[0])
+
+        tracks = ( type(tracks) != types.ListType ) and [tracks] or tracks
+
+        if len(tracks):
             for i in range(len(self.files)):
                 self.files[i] = self.files[i][:1] # kill the previous reference if there is one
                 self.files[i].append(tracks[i])
 
         else:
-            print "Couldn't add the file(s). Please restart iTunes or reinstall Fluke."
+            raise GUIItunesRestart("Couldn't add the file(s). Please restart iTunes.")
             return False
-        itunes.fixMetadata(self.filesList())
+
+        try:
+            itunes.fixMetadata(self.filesList())
+        except ItunesFormatError as e:
+            raise GUIFormatError(e.args[0])
+
     
     def itunesConvert(self):
         """Convert added files to iTunes"""
@@ -61,7 +73,6 @@ class FLAC(object):
         """
         Recurse through dirs if any are given and filter out non-flacs
         """
-        import types
         results = []
 
         for f in files:
@@ -80,7 +91,6 @@ class FLAC(object):
 
     def argsToList(self,args):
         """Check if argument was a list or a string. Always return a list"""        
-        import types
 
         if type(args) == types.StringType:
             return [args]

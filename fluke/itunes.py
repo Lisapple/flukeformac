@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
 Module for dealing with iTunes stuff.
@@ -9,15 +8,16 @@ import sys, os
 # Fluke specific modules
 from appscript import *
 from mutagen.flac import FLAC, FLACNoHeaderError
+from fluke.exceptions import *
 
 itunesApp = app(u'iTunes')
 
-class ItunesReferenceError(Exception): pass
-class ItunesFormatError(Exception): pass
-
 def add(files):
     filesASPaths = [getASPath(f) for f in files]
-    tracks = itunesApp.add( filesASPaths, to=app.library_playlists[1])
+    try: 
+        tracks = itunesApp.add( filesASPaths, to=app.library_playlists[1])
+    except RuntimeError:
+        raise ItunesNotInitialized
     return tracks
 
 def fixMetadata(files):

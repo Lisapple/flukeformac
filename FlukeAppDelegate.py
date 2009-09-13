@@ -1,3 +1,4 @@
+#!/opt/local/bin/python
 #
 #  FlukeAppDelegate.py
 #  Fluke

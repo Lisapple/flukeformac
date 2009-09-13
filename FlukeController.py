@@ -11,6 +11,7 @@ from PyObjCTools import AppHelper
 import sys,os
 
 import fluke, flukeapp
+from fluke.exceptions import *
 
 class FlukeController(NSObject):
 
@@ -28,15 +29,20 @@ class FlukeController(NSObject):
     filenames = []
     
     def awakeFromNib(self):
+        """Wake up, Neo"""
+        self.convertToLossless = False
+        self.deleteAfterConversion = False
+
         sys.argv = flukeapp.cleanUpSysArgs(sys.argv)
-        NSLog('System arguments: ' + str(sys.argv))
         
         self.windowHeight_(self,130)
         self.buttonGo.setKeyEquivalent_(u'\r') # assign GO to return key
         
         # Open fileOpen dialog if no files were fed in
-        #self.processFiles(sys.argv)
-        self.open_(self)        
+        if not sys.argv:
+            self.open_(self)        
+        else:
+            self.fillList_(self, sys.argv)
         
     @IBAction
     def open_(self, sender):
@@ -54,9 +60,12 @@ class FlukeController(NSObject):
     @IBAction
     def addFiles_(self,sender):
         self.toggleProgressBar_(self)
-        self.files.itunesAdd()
+        try:
+            self.files.itunesAdd()
+        except GUIFormatError as e:
+            self.createError_message_(self,e.args[0])
+
         self.toggleProgressBar_(self)
-    
         
     def fillList_(self,sender,files):
         """Fill GUI out with filenames. Takes list of files."""
@@ -74,10 +83,21 @@ class FlukeController(NSObject):
         self.setTextFileCount_(self,len(self.files))
     # GUI methods
     
+    @objc.IBAction
+    def createError_message_(self,sender,message):
+        """Alert method. Serves as a reference as I'll forget it otherwise"""
+        alert = NSAlert.alloc().init()
+        alert.addButtonWithTitle_("OK")
+        alert.setMessageText_('Uh oh')
+        alert.setInformativeText_(message)
+        alert.setAlertStyle_(NSWarningAlertStyle)
+        buttonPressed=alert.beginSheetModalForWindow_modalDelegate_didEndSelector_contextInfo_( \
+                self.mainWindow, self, False, 0)
+
     @IBAction
     def toggleFileList_(self,sender):
         """Set the height of the file list NSTableView"""
-        fileListHeight = 210
+        fileListHeight = 220
         
         if sender.state() == 1:
             self.expandedFiles.setHidden_(False)
@@ -85,9 +105,9 @@ class FlukeController(NSObject):
             self.windowHeight_(self,350)
 
         else:
-            self.expandedFiles.setHidden_(True)
             self.expandedFilesHeight_(self,fileListHeight)
             self.windowHeight_(self,130)
+            self.expandedFiles.setHidden_(True)
     
     @IBAction 
     def toggleProgressBar_(self,sender):
@@ -104,6 +124,11 @@ class FlukeController(NSObject):
         """Disable the GO button when adding"""
         pass
         
+    @IBAction
+    def toggleDeleteAfterConvert(self,sender):
+        """Set whether we're going to delete files upon conversion"""
+        self.deleteAfterConversion = (sender.state == 1) and True or False
+
     @IBAction
     def toggleConvertToLossless_(self,sender):
         """Toggle the Delete option when selecting Conver to lossless"""
@@ -123,7 +148,7 @@ class FlukeController(NSObject):
         origin = self.expandedFiles.frame().origin
         size = self.expandedFiles.frame().size
         NSLog(str(self.mainWindow.frame()))
-        self.expandedFiles.setFrame_(NSMakeRect(origin.x,origin.y-(height-size.height),508,height))
+        #self.expandedFiles.setFrame_(NSMakeRect(origin.x,origin.y-(height-size.height),508,height))
         
     def windowHeight_(self,sender,height):
         """Animate the window height as we toggle with expandedFilesHeight()"""

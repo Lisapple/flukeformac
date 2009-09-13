@@ -14,7 +14,7 @@ import sys,os
 # py2app fix - make sure we're going to find those third part libs
 resPath = sys.argv[0].split("/")
 resPath.pop()
-sys.path.insert( 0, os.path.join('/'.join([a for a in resPath]), 'lib', 'python2.5', 'lib-dynload') )
+sys.path.insert( 0, os.path.join('/'.join([a for a in resPath]), 'lib', 'python2.6', 'lib-dynload') )
 
 import fluke 
 

@@ -7,26 +7,13 @@ Usage:
 
 from setuptools import setup
 
-APP = ['flukeapp.py']
+APP = ['main.py']
 DATA_FILES = [
- './resources/Fluke-Flac.icns']
-OPTIONS = {'argv_emulation': True,
- 'iconfile': './resources/Fluke.icns',
- 'plist': {'CFBundleDocumentTypes': [{'CFBundleTypeExtensions': ['flac'],
-                                      'CFBundleTypeIconFile': 'Fluke-Flac.icns',
-                                      'CFBundleTypeMIMETypes': ['audio/flac',
-                                                                'audio/x-flac'],
-                                      'CFBundleTypeName': 'FLAC Audio File',
-                                      'CFBundleTypeOSTypes': ['flac'],
-                                      'CFBundleTypeRole': 'Editor'}],
-           'CFBundleIconFile': 'Fluke.icns',
-           'CFBundleIdentifier': 'com.kichenko.fluke',
-           'CFBundleInfoDictionaryVersion': '6.0',
-           'CFBundleName': 'Fluke',
-           'CFBundlePackageType': 'APPL',
-           'CFBundleShortVersionString': '0.2.4',
-           'IsDroppable': True,
-           'NSHumanReadableCopyright': '(C)2009 Dmitry Kichenko. Distributed under GPLv3'}}
+ './resources/Fluke-Flac.icns',
+ 'English.lproj'
+]
+
+OPTIONS = {'argv_emulation': True}
 
 setup(
     app=APP,

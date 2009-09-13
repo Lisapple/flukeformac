@@ -27,7 +27,7 @@
 		</dict>
 	</array>
 	<key>CFBundleIconFile</key>
-	<string>Fluke.icns</string>
+    <string>Fluke.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.kichenko.fluke</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -37,7 +37,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2.4</string>
+	<string>0.3.0</string>
     <key>IsDroppable</key>
     <true/>
 	<key>NSHumanReadableCopyright</key>

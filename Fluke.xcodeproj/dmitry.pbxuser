@@ -33,73 +33,270 @@
 		sourceDirectories = (
 		);
 	};
-	0A262702104B9DE600CFB699 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 43";
-		rLen = 0;
-		rLoc = 1564;
-		rType = 0;
-		vrLen = 399;
-		vrLoc = 0;
-	};
-	0A262707104B9DE600CFB699 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
-		name = "flukeapp.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 478;
-		vrLoc = 0;
-	};
-	0A54A2381043AD3600E9B83B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 328;
-		vrLoc = 0;
-	};
 	0A930603104393CC000F2341 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 	};
 	0A930604104393CC000F2341 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	0A9306D9104395B7000F2341 /* PBXTextBookmark */ = {
+	0AA4B2DB105C71E20098315E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 293;
+		vrLen = 637;
 		vrLoc = 0;
 	};
-	0A9306DA104395B7000F2341 /* PBXTextBookmark */ = {
+	0AA4B2DC105C71E20098315E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 77631A3E0C0748CF005415CB /* main.py */;
-		name = "main.py: 1";
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 307;
+		vrLen = 584;
 		vrLoc = 0;
+	};
+	0AA4B2E7105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
+		name = "FlukeAppDelegate.py: 1";
+		rLen = 23;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 0;
+	};
+	0AA4B2E8105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	0AA4B2E9105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 0;
+	};
+	0AA4B2EA105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 0;
+	};
+	0AA4B2EB105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
+		name = "FlukeAppDelegate.py: 1";
+		rLen = 23;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 0;
+	};
+	0AA4B2EC105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 0;
+	};
+	0AA4B2ED105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	0AA4B2EE105C74490098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	0AA4B2EF105C74B60098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	0AA4B2F0105C74B60098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	0AA4B2F1105C74B60098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	0AA4B2F2105C74B60098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 17";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	0AA4B2F7105C81700098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 17";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 85;
+	};
+	0AA4B2F8105C81700098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 17";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 85;
+	};
+	0AA4B2F9105C81700098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 80";
+		rLen = 0;
+		rLoc = 2275;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 2077;
+	};
+	0AA4B2FC105C82200098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 126";
+		rLen = 0;
+		rLoc = 3905;
+		rType = 0;
+		vrLen = 1299;
+		vrLoc = 3295;
+	};
+	0AA4B305105C83C10098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 87";
+		rLen = 0;
+		rLoc = 2481;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 2157;
+	};
+	0AA4B310105C86470098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 30";
+		rLen = 0;
+		rLoc = 559;
+		rType = 0;
+		vrLen = 961;
+		vrLoc = 207;
+	};
+	0AA4B312105C881E0098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 152";
+		rLen = 0;
+		rLoc = 4907;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 415;
+	};
+	0AA4B315105C8A070098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 152";
+		rLen = 0;
+		rLoc = 4931;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 876;
+	};
+	0AA4B31D105C91530098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 42";
+		rLen = 0;
+		rLoc = 968;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 383;
+	};
+	0AA4B31F105C91B20098315E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
+		name = "FlukeController.py: 154";
+		rLen = 0;
+		rLoc = 4963;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 670;
 	};
 	0AAB52A210478F1F009F1D1A /* flukeapp.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {820, 714}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 518}";
+			sepNavIntBoundsRect = "{{0, 0}, {877, 714}}";
+			sepNavSelRange = "{456, 0}";
+			sepNavVisRange = "{85, 833}";
 		};
+	};
+	0ABA229110586078000D7230 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0AE2186D1047731000E5CADA /* Fluke.icns */;
 	};
 	0AE217B2104755C100E5CADA /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -119,60 +316,12 @@
 		path = /Users/dmitry/Developer/flukeformac/resources/Info.plist;
 		sourceTree = "<absolute>";
 	};
-	0AE217B7104755C100E5CADA /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 0AE217B8104755C100E5CADA /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/dmitry/Developer/flukeformac/resources/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	0AE217B8104755C100E5CADA /* Info.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = Info.plist;
-		path = /Users/dmitry/Developer/flukeformac/resources/Info.plist;
-		sourceTree = "<absolute>";
-	};
-	0AE217BA104755C100E5CADA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 121;
-		rType = 0;
-		vrLen = 123;
-		vrLoc = 0;
-	};
 	0AE217DC1047564000E5CADA /* FlukeController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 2601}}";
-			sepNavSelRange = "{2297, 3}";
-			sepNavVisRange = "{1816, 1115}";
+			sepNavIntBoundsRect = "{{0, 0}, {877, 2856}}";
+			sepNavSelRange = "{4963, 0}";
+			sepNavVisRange = "{670, 1010}";
 		};
-	};
-	0AE2183D1047719800E5CADA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77631A3E0C0748CF005415CB /* main.py */;
-		name = "main.py: 12";
-		rLen = 0;
-		rLoc = 215;
-		rType = 0;
-		vrLen = 486;
-		vrLoc = 0;
-	};
-	0AE218451047719800E5CADA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 14";
-		rLen = 0;
-		rLoc = 557;
-		rType = 0;
-		vrLen = 662;
-		vrLoc = 0;
 	};
 	0AE218731047732300E5CADA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -182,42 +331,6 @@
 		rLoc = 121;
 		rType = 0;
 		vrLen = 123;
-		vrLoc = 0;
-	};
-	0AE218761047732300E5CADA /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIconFile,
-		);
-		name = /Users/dmitry/Developer/flukeformac/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	0AEDDAD11057139A0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
-		name = "flukeapp.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 518;
-		vrLoc = 0;
-	};
-	0AEDDAD21057139A0046E7C9 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 0AE2186D1047731000E5CADA /* Fluke.icns */;
-	};
-	0AEDDAD31057139A0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
-		name = "flukeapp.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 518;
 		vrLoc = 0;
 	};
 	0AEDDAFE105719390046E7C9 /* PlistBookmark */ = {
@@ -232,187 +345,12 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	0AEDDB00105719390046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 39";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1486;
-		vrLoc = 383;
-	};
-	0AEDDB01105719390046E7C9 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleShortVersionString,
-		);
-		name = "/Volumes/Macintosh HD/Users/dmitry/Developer/flukegui/Info.plist";
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	0AEDDB201057237A0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 20";
-		rLen = 0;
-		rLoc = 330;
-		rType = 0;
-		vrLen = 628;
-		vrLoc = 0;
-	};
-	0AEDDB211057237A0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 9";
-		rLen = 45;
-		rLoc = 144;
-		rType = 0;
-		vrLen = 369;
-		vrLoc = 0;
-	};
-	0AEDDB2D105724FC0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 20";
-		rLen = 0;
-		rLoc = 343;
-		rType = 0;
-		vrLen = 673;
-		vrLoc = 0;
-	};
-	0AEDDB6010572EBF0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 5";
-		rLen = 0;
-		rLoc = 86;
-		rType = 0;
-		vrLen = 675;
-		vrLoc = 0;
-	};
-	0AEDDBC210573BC50046E7C9 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 0AE2186D1047731000E5CADA /* Fluke.icns */;
-	};
-	0AEDDBC410573BC50046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 90";
-		rLen = 0;
-		rLoc = 2463;
-		rType = 0;
-		vrLen = 1649;
-		vrLoc = 1473;
-	};
-	0AEDDBC510573BC50046E7C9 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 0AE2186D1047731000E5CADA /* Fluke.icns */;
-	};
-	0AEDDC26105748850046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 40";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1073;
-		vrLoc = 338;
-	};
-	0AEDDC27105748850046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 104";
-		rLen = 0;
-		rLoc = 3560;
-		rType = 0;
-		vrLen = 904;
-		vrLoc = 2285;
-	};
 	0AEDDC28105748850046E7C9 /* __init__.py */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = text.script.python;
 		name = __init__.py;
 		path = "/Volumes/Macintosh HD/Users/dmitry/Developer/flukegui/fluke/__init__.py";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 1938}}";
-			sepNavSelRange = "{708, 0}";
-			sepNavVisRange = "{100, 1100}";
-		};
-	};
-	0AEDDC2F105748B90046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 13";
-		rLen = 0;
-		rLoc = 206;
-		rType = 0;
-		vrLen = 1107;
-		vrLoc = 320;
-	};
-	0AEDDC3710574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 62";
-		rLen = 0;
-		rLoc = 2192;
-		rType = 0;
-		vrLen = 1030;
-		vrLoc = 1471;
-	};
-	0AEDDC3810574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 13";
-		rLen = 0;
-		rLoc = 206;
-		rType = 0;
-		vrLen = 1106;
-		vrLoc = 320;
-	};
-	0AEDDC3910574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 62";
-		rLen = 0;
-		rLoc = 2192;
-		rType = 0;
-		vrLen = 1027;
-		vrLoc = 635;
-	};
-	0AEDDC3A10574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 13";
-		rLen = 0;
-		rLoc = 206;
-		rType = 0;
-		vrLen = 1106;
-		vrLoc = 320;
-	};
-	0AEDDC3B10574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 48";
-		rLen = 0;
-		rLoc = 1660;
-		rType = 0;
-		vrLen = 1028;
-		vrLoc = 4;
-	};
-	0AEDDC3C10574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 891;
-		vrLoc = 0;
 	};
 	0AEDDC3D10574F1B0046E7C9 /* itunes.py */ = {
 		isa = PBXFileReference;
@@ -420,341 +358,86 @@
 		name = itunes.py;
 		path = "/Volumes/Macintosh HD/Users/dmitry/Developer/flukegui/fluke/itunes.py";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 1666}}";
-			sepNavSelRange = "{540, 0}";
-			sepNavVisRange = "{203, 1092}";
-		};
 	};
-	0AEDDC3E10574F1B0046E7C9 /* PBXTextBookmark */ = {
+	0AF3BDAD1058637200B72D77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 48";
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 43";
 		rLen = 0;
-		rLoc = 1720;
+		rLoc = 1564;
 		rType = 0;
-		vrLen = 1169;
-		vrLoc = 650;
+		vrLen = 1212;
+		vrLoc = 0;
 	};
-	0AEDDC3F10574F1B0046E7C9 /* PBXTextBookmark */ = {
+	0AF3BDCA1058648100B72D77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 43";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1131;
-		vrLoc = 463;
-	};
-	0AEDDC4010574F1B0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 48";
-		rLen = 0;
-		rLoc = 1720;
-		rType = 0;
-		vrLen = 1081;
-		vrLoc = 738;
-	};
-	0AEDDC4D105751A70046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 44";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1104;
-		vrLoc = 491;
-	};
-	0AEDDC54105752970046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 48";
-		rLen = 0;
-		rLoc = 1688;
-		rType = 0;
-		vrLen = 1031;
-		vrLoc = 1062;
-	};
-	0AEDDC55105752970046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 46";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1166;
-		vrLoc = 472;
-	};
-	0AEDDC59105752DE0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 50";
-		rLen = 9;
-		rLoc = 1730;
-		rType = 0;
-		vrLen = 1097;
-		vrLoc = 888;
-	};
-	0AEDDC5F105759070046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 47";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1190;
-		vrLoc = 730;
-	};
-	0AEDDC60105759070046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 50";
-		rLen = 9;
-		rLoc = 1730;
-		rType = 0;
-		vrLen = 1119;
-		vrLoc = 844;
-	};
-	0AEDDC61105759070046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 1";
+		fRef = 0AAB52A210478F1F009F1D1A /* flukeapp.py */;
+		name = "flukeapp.py: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 877;
+		vrLen = 792;
 		vrLoc = 0;
 	};
-	0AEDDC62105759070046E7C9 /* PBXTextBookmark */ = {
+	0AF3BDCB1058648100B72D77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 50";
-		rLen = 9;
-		rLoc = 1730;
-		rType = 0;
-		vrLen = 1119;
-		vrLoc = 844;
-	};
-	0AEDDC6C10575BEA0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 67";
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 1";
 		rLen = 0;
-		rLoc = 2611;
+		rLoc = 23;
 		rType = 0;
-		vrLen = 1159;
-		vrLoc = 1624;
+		vrLen = 510;
+		vrLoc = 0;
 	};
-	0AEDDC6D10575BEA0046E7C9 /* PBXTextBookmark */ = {
+	0AF3BDCC1058648100B72D77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 9";
-		rLen = 45;
-		rLoc = 144;
+		name = "FlukeAppDelegate.py: 1";
+		rLen = 23;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 369;
+		vrLen = 489;
 		vrLoc = 0;
 	};
-	0AEDDC7410575D730046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 85";
-		rLen = 0;
-		rLoc = 3963;
-		rType = 0;
-		vrLen = 1130;
-		vrLoc = 2201;
-	};
-	0AEDDC7510575D730046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 15";
-		rLen = 29;
-		rLoc = 274;
-		rType = 0;
-		vrLen = 369;
-		vrLoc = 0;
-	};
-	0AEDDC7610575D730046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 85";
-		rLen = 0;
-		rLoc = 3963;
-		rType = 0;
-		vrLen = 1130;
-		vrLoc = 2201;
-	};
-	0AEDDC7710575D730046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 15";
-		rLen = 29;
-		rLoc = 274;
-		rType = 0;
-		vrLen = 369;
-		vrLoc = 0;
-	};
-	0AEDDC7810575D730046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 101";
-		rLen = 0;
-		rLoc = 4592;
-		rType = 0;
-		vrLen = 1124;
-		vrLoc = 2201;
-	};
-	0AEDDC7B10575D870046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 19";
-		rLen = 0;
-		rLoc = 464;
-		rType = 0;
-		vrLen = 465;
-		vrLoc = 0;
-	};
-	0AEDDC7D10575D870046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* FlukeAppDelegate.py */;
-		name = "FlukeAppDelegate.py: 19";
-		rLen = 0;
-		rLoc = 464;
-		rType = 0;
-		vrLen = 465;
-		vrLoc = 0;
-	};
-	0AEDDC95105761090046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 54";
-		rLen = 0;
-		rLoc = 1313;
-		rType = 0;
-		vrLen = 1230;
-		vrLoc = 838;
-	};
-	0AEDDC96105761090046E7C9 /* PBXTextBookmark */ = {
+	0AF3BDCD1058648100B72D77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 35";
+		name = "itunes.py: 97";
 		rLen = 0;
-		rLoc = 1006;
+		rLoc = 3056;
 		rType = 0;
-		vrLen = 1121;
-		vrLoc = 130;
+		vrLen = 861;
+		vrLoc = 0;
 	};
-	0AEDDC97105761090046E7C9 /* PBXTextBookmark */ = {
+	0AF3BDCE1058648100B72D77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 20";
-		rLen = 0;
-		rLoc = 551;
-		rType = 0;
-		vrLen = 1034;
-		vrLoc = 101;
-	};
-	0AEDDC98105761090046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 35";
-		rLen = 17;
-		rLoc = 984;
-		rType = 0;
-		vrLen = 1120;
-		vrLoc = 130;
-	};
-	0AEDDC9F105761940046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 20";
-		rLen = 0;
-		rLoc = 593;
-		rType = 0;
-		vrLen = 1076;
-		vrLoc = 101;
-	};
-	0AEDDCA0105761940046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 35";
-		rLen = 17;
-		rLoc = 984;
-		rType = 0;
-		vrLen = 1120;
-		vrLoc = 130;
-	};
-	0AEDDCA1105761940046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 20";
-		rLen = 0;
-		rLoc = 593;
-		rType = 0;
-		vrLen = 1076;
-		vrLoc = 101;
-	};
-	0AEDDCA41057625E0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 24";
-		rLen = 0;
-		rLoc = 540;
-		rType = 0;
-		vrLen = 1092;
-		vrLoc = 203;
-	};
-	0AEDDCA61057625E0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC3D10574F1B0046E7C9 /* itunes.py */;
-		name = "itunes.py: 24";
-		rLen = 0;
-		rLoc = 540;
-		rType = 0;
-		vrLen = 1092;
-		vrLoc = 203;
-	};
-	0AEDDCAE105764AA0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 24";
+		name = "__init__.py: 25";
 		rLen = 0;
 		rLoc = 708;
 		rType = 0;
-		vrLen = 1100;
-		vrLoc = 100;
+		vrLen = 1005;
+		vrLoc = 0;
 	};
-	0AEDDCAF105764AA0046E7C9 /* PBXTextBookmark */ = {
+	0AFC0ECA1058654400B34EED /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 54";
+		name = "FlukeController.py: 1";
 		rLen = 0;
-		rLoc = 1313;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1145;
-		vrLoc = 923;
+		vrLen = 637;
+		vrLoc = 0;
 	};
-	0AEDDCB0105764AA0046E7C9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0AEDDC28105748850046E7C9 /* __init__.py */;
-		name = "__init__.py: 24";
-		rLen = 0;
-		rLoc = 708;
-		rType = 0;
-		vrLen = 1100;
-		vrLoc = 100;
-	};
-	0AEDDCE010576CB20046E7C9 /* PBXTextBookmark */ = {
+	0AFC0ED01058654400B34EED /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0AE217DC1047564000E5CADA /* FlukeController.py */;
-		name = "FlukeController.py: 80";
-		rLen = 3;
-		rLoc = 2297;
+		name = "FlukeController.py: 1";
+		rLen = 0;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1115;
-		vrLoc = 1816;
+		vrLen = 637;
+		vrLoc = 0;
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -787,7 +470,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					711,
+					699,
 					20,
 					48,
 					43,
@@ -826,77 +509,46 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 274142075;
-			PBXWorkspaceStateSaveDate = 274142075;
+			PBXPerProjectTemplateStateSaveDate = 274493910;
+			PBXWorkspaceStateSaveDate = 274493910;
 		};
 		perUserProjectItems = {
-			0A262702104B9DE600CFB699 /* PBXTextBookmark */ = 0A262702104B9DE600CFB699 /* PBXTextBookmark */;
-			0A262707104B9DE600CFB699 /* PBXTextBookmark */ = 0A262707104B9DE600CFB699 /* PBXTextBookmark */;
-			0A54A2381043AD3600E9B83B /* PBXTextBookmark */ = 0A54A2381043AD3600E9B83B /* PBXTextBookmark */;
-			0A9306D9104395B7000F2341 /* PBXTextBookmark */ = 0A9306D9104395B7000F2341 /* PBXTextBookmark */;
-			0A9306DA104395B7000F2341 /* PBXTextBookmark */ = 0A9306DA104395B7000F2341 /* PBXTextBookmark */;
-			0AE217B2104755C100E5CADA /* PlistBookmark */ = 0AE217B2104755C100E5CADA /* PlistBookmark */;
-			0AE217B7104755C100E5CADA /* PlistBookmark */ = 0AE217B7104755C100E5CADA /* PlistBookmark */;
-			0AE217BA104755C100E5CADA /* PBXTextBookmark */ = 0AE217BA104755C100E5CADA /* PBXTextBookmark */;
-			0AE2183D1047719800E5CADA /* PBXTextBookmark */ = 0AE2183D1047719800E5CADA /* PBXTextBookmark */;
-			0AE218451047719800E5CADA /* PBXTextBookmark */ = 0AE218451047719800E5CADA /* PBXTextBookmark */;
-			0AE218731047732300E5CADA /* PBXTextBookmark */ = 0AE218731047732300E5CADA /* PBXTextBookmark */;
-			0AE218761047732300E5CADA /* PlistBookmark */ = 0AE218761047732300E5CADA /* PlistBookmark */;
-			0AEDDAD11057139A0046E7C9 /* PBXTextBookmark */ = 0AEDDAD11057139A0046E7C9 /* PBXTextBookmark */;
-			0AEDDAD21057139A0046E7C9 /* PBXBookmark */ = 0AEDDAD21057139A0046E7C9 /* PBXBookmark */;
-			0AEDDAD31057139A0046E7C9 /* PBXTextBookmark */ = 0AEDDAD31057139A0046E7C9 /* PBXTextBookmark */;
-			0AEDDAFE105719390046E7C9 /* PlistBookmark */ = 0AEDDAFE105719390046E7C9 /* PlistBookmark */;
-			0AEDDB00105719390046E7C9 /* PBXTextBookmark */ = 0AEDDB00105719390046E7C9 /* PBXTextBookmark */;
-			0AEDDB01105719390046E7C9 /* PlistBookmark */ = 0AEDDB01105719390046E7C9 /* PlistBookmark */;
-			0AEDDB201057237A0046E7C9 /* PBXTextBookmark */ = 0AEDDB201057237A0046E7C9 /* PBXTextBookmark */;
-			0AEDDB211057237A0046E7C9 /* PBXTextBookmark */ = 0AEDDB211057237A0046E7C9 /* PBXTextBookmark */;
-			0AEDDB2D105724FC0046E7C9 /* PBXTextBookmark */ = 0AEDDB2D105724FC0046E7C9 /* PBXTextBookmark */;
-			0AEDDB6010572EBF0046E7C9 /* PBXTextBookmark */ = 0AEDDB6010572EBF0046E7C9 /* PBXTextBookmark */;
-			0AEDDBC210573BC50046E7C9 /* PBXBookmark */ = 0AEDDBC210573BC50046E7C9 /* PBXBookmark */;
-			0AEDDBC410573BC50046E7C9 /* PBXTextBookmark */ = 0AEDDBC410573BC50046E7C9 /* PBXTextBookmark */;
-			0AEDDBC510573BC50046E7C9 /* PBXBookmark */ = 0AEDDBC510573BC50046E7C9 /* PBXBookmark */;
-			0AEDDC26105748850046E7C9 /* PBXTextBookmark */ = 0AEDDC26105748850046E7C9 /* PBXTextBookmark */;
-			0AEDDC27105748850046E7C9 /* PBXTextBookmark */ = 0AEDDC27105748850046E7C9 /* PBXTextBookmark */;
-			0AEDDC2F105748B90046E7C9 /* PBXTextBookmark */ = 0AEDDC2F105748B90046E7C9 /* PBXTextBookmark */;
-			0AEDDC3710574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3710574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3810574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3810574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3910574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3910574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3A10574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3A10574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3B10574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3B10574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3C10574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3C10574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3E10574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3E10574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC3F10574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC3F10574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC4010574F1B0046E7C9 /* PBXTextBookmark */ = 0AEDDC4010574F1B0046E7C9 /* PBXTextBookmark */;
-			0AEDDC4D105751A70046E7C9 /* PBXTextBookmark */ = 0AEDDC4D105751A70046E7C9 /* PBXTextBookmark */;
-			0AEDDC54105752970046E7C9 /* PBXTextBookmark */ = 0AEDDC54105752970046E7C9 /* PBXTextBookmark */;
-			0AEDDC55105752970046E7C9 /* PBXTextBookmark */ = 0AEDDC55105752970046E7C9 /* PBXTextBookmark */;
-			0AEDDC59105752DE0046E7C9 /* PBXTextBookmark */ = 0AEDDC59105752DE0046E7C9 /* PBXTextBookmark */;
-			0AEDDC5F105759070046E7C9 /* PBXTextBookmark */ = 0AEDDC5F105759070046E7C9 /* PBXTextBookmark */;
-			0AEDDC60105759070046E7C9 /* PBXTextBookmark */ = 0AEDDC60105759070046E7C9 /* PBXTextBookmark */;
-			0AEDDC61105759070046E7C9 /* PBXTextBookmark */ = 0AEDDC61105759070046E7C9 /* PBXTextBookmark */;
-			0AEDDC62105759070046E7C9 /* PBXTextBookmark */ = 0AEDDC62105759070046E7C9 /* PBXTextBookmark */;
-			0AEDDC6C10575BEA0046E7C9 /* PBXTextBookmark */ = 0AEDDC6C10575BEA0046E7C9 /* PBXTextBookmark */;
-			0AEDDC6D10575BEA0046E7C9 /* PBXTextBookmark */ = 0AEDDC6D10575BEA0046E7C9 /* PBXTextBookmark */;
-			0AEDDC7410575D730046E7C9 /* PBXTextBookmark */ = 0AEDDC7410575D730046E7C9 /* PBXTextBookmark */;
-			0AEDDC7510575D730046E7C9 /* PBXTextBookmark */ = 0AEDDC7510575D730046E7C9 /* PBXTextBookmark */;
-			0AEDDC7610575D730046E7C9 /* PBXTextBookmark */ = 0AEDDC7610575D730046E7C9 /* PBXTextBookmark */;
-			0AEDDC7710575D730046E7C9 /* PBXTextBookmark */ = 0AEDDC7710575D730046E7C9 /* PBXTextBookmark */;
-			0AEDDC7810575D730046E7C9 /* PBXTextBookmark */ = 0AEDDC7810575D730046E7C9 /* PBXTextBookmark */;
-			0AEDDC7B10575D870046E7C9 /* PBXTextBookmark */ = 0AEDDC7B10575D870046E7C9 /* PBXTextBookmark */;
-			0AEDDC7D10575D870046E7C9 /* PBXTextBookmark */ = 0AEDDC7D10575D870046E7C9 /* PBXTextBookmark */;
-			0AEDDC95105761090046E7C9 /* PBXTextBookmark */ = 0AEDDC95105761090046E7C9 /* PBXTextBookmark */;
-			0AEDDC96105761090046E7C9 /* PBXTextBookmark */ = 0AEDDC96105761090046E7C9 /* PBXTextBookmark */;
-			0AEDDC97105761090046E7C9 /* PBXTextBookmark */ = 0AEDDC97105761090046E7C9 /* PBXTextBookmark */;
-			0AEDDC98105761090046E7C9 /* PBXTextBookmark */ = 0AEDDC98105761090046E7C9 /* PBXTextBookmark */;
-			0AEDDC9F105761940046E7C9 /* PBXTextBookmark */ = 0AEDDC9F105761940046E7C9 /* PBXTextBookmark */;
-			0AEDDCA0105761940046E7C9 /* PBXTextBookmark */ = 0AEDDCA0105761940046E7C9 /* PBXTextBookmark */;
-			0AEDDCA1105761940046E7C9 /* PBXTextBookmark */ = 0AEDDCA1105761940046E7C9 /* PBXTextBookmark */;
-			0AEDDCA41057625E0046E7C9 /* PBXTextBookmark */ = 0AEDDCA41057625E0046E7C9 /* PBXTextBookmark */;
-			0AEDDCA61057625E0046E7C9 /* PBXTextBookmark */ = 0AEDDCA61057625E0046E7C9 /* PBXTextBookmark */;
-			0AEDDCAE105764AA0046E7C9 /* PBXTextBookmark */ = 0AEDDCAE105764AA0046E7C9 /* PBXTextBookmark */;
-			0AEDDCAF105764AA0046E7C9 /* PBXTextBookmark */ = 0AEDDCAF105764AA0046E7C9 /* PBXTextBookmark */;
-			0AEDDCB0105764AA0046E7C9 /* PBXTextBookmark */ = 0AEDDCB0105764AA0046E7C9 /* PBXTextBookmark */;
-			0AEDDCE010576CB20046E7C9 /* PBXTextBookmark */ = 0AEDDCE010576CB20046E7C9 /* PBXTextBookmark */;
+			0AA4B2DB105C71E20098315E /* PBXTextBookmark */ = 0AA4B2DB105C71E20098315E /* PBXTextBookmark */;
+			0AA4B2DC105C71E20098315E /* PBXTextBookmark */ = 0AA4B2DC105C71E20098315E /* PBXTextBookmark */;
+			0AA4B2E7105C74490098315E /* PBXTextBookmark */ = 0AA4B2E7105C74490098315E /* PBXTextBookmark */;
+			0AA4B2E8105C74490098315E /* PBXTextBookmark */ = 0AA4B2E8105C74490098315E /* PBXTextBookmark */;
+			0AA4B2E9105C74490098315E /* PBXTextBookmark */ = 0AA4B2E9105C74490098315E /* PBXTextBookmark */;
+			0AA4B2EA105C74490098315E /* PBXTextBookmark */ = 0AA4B2EA105C74490098315E /* PBXTextBookmark */;
+			0AA4B2EB105C74490098315E /* PBXTextBookmark */ = 0AA4B2EB105C74490098315E /* PBXTextBookmark */;
+			0AA4B2EC105C74490098315E /* PBXTextBookmark */ = 0AA4B2EC105C74490098315E /* PBXTextBookmark */;
+			0AA4B2ED105C74490098315E /* PBXTextBookmark */ = 0AA4B2ED105C74490098315E /* PBXTextBookmark */;
+			0AA4B2EE105C74490098315E /* PBXTextBookmark */ = 0AA4B2EE105C74490098315E /* PBXTextBookmark */;
+			0AA4B2EF105C74B60098315E /* PBXTextBookmark */ = 0AA4B2EF105C74B60098315E /* PBXTextBookmark */;
+			0AA4B2F0105C74B60098315E /* PBXTextBookmark */ = 0AA4B2F0105C74B60098315E /* PBXTextBookmark */;
+			0AA4B2F1105C74B60098315E /* PBXTextBookmark */ = 0AA4B2F1105C74B60098315E /* PBXTextBookmark */;
+			0AA4B2F2105C74B60098315E /* PBXTextBookmark */ = 0AA4B2F2105C74B60098315E /* PBXTextBookmark */;
+			0AA4B2F7105C81700098315E /* PBXTextBookmark */ = 0AA4B2F7105C81700098315E /* PBXTextBookmark */;
+			0AA4B2F8105C81700098315E /* PBXTextBookmark */ = 0AA4B2F8105C81700098315E /* PBXTextBookmark */;
+			0AA4B2F9105C81700098315E /* PBXTextBookmark */ = 0AA4B2F9105C81700098315E /* PBXTextBookmark */;
+			0AA4B2FC105C82200098315E /* PBXTextBookmark */ = 0AA4B2FC105C82200098315E /* PBXTextBookmark */;
+			0AA4B305105C83C10098315E /* PBXTextBookmark */ = 0AA4B305105C83C10098315E /* PBXTextBookmark */;
+			0AA4B310105C86470098315E /* PBXTextBookmark */ = 0AA4B310105C86470098315E /* PBXTextBookmark */;
+			0AA4B312105C881E0098315E /* PBXTextBookmark */ = 0AA4B312105C881E0098315E /* PBXTextBookmark */;
+			0AA4B315105C8A070098315E /* PBXTextBookmark */ = 0AA4B315105C8A070098315E /* PBXTextBookmark */;
+			0AA4B31D105C91530098315E /* PBXTextBookmark */ = 0AA4B31D105C91530098315E /* PBXTextBookmark */;
+			0AA4B31F105C91B20098315E /* PBXTextBookmark */ = 0AA4B31F105C91B20098315E /* PBXTextBookmark */;
+			0ABA229110586078000D7230 = 0ABA229110586078000D7230 /* PBXBookmark */;
+			0AE217B2104755C100E5CADA = 0AE217B2104755C100E5CADA /* PlistBookmark */;
+			0AE218731047732300E5CADA = 0AE218731047732300E5CADA /* PBXTextBookmark */;
+			0AEDDAFE105719390046E7C9 = 0AEDDAFE105719390046E7C9 /* PlistBookmark */;
+			0AF3BDAD1058637200B72D77 = 0AF3BDAD1058637200B72D77 /* PBXTextBookmark */;
+			0AF3BDCA1058648100B72D77 = 0AF3BDCA1058648100B72D77 /* PBXTextBookmark */;
+			0AF3BDCB1058648100B72D77 = 0AF3BDCB1058648100B72D77 /* PBXTextBookmark */;
+			0AF3BDCC1058648100B72D77 = 0AF3BDCC1058648100B72D77 /* PBXTextBookmark */;
+			0AF3BDCD1058648100B72D77 = 0AF3BDCD1058648100B72D77 /* PBXTextBookmark */;
+			0AF3BDCE1058648100B72D77 = 0AF3BDCE1058648100B72D77 /* PBXTextBookmark */;
+			0AFC0ECA1058654400B34EED = 0AFC0ECA1058654400B34EED /* PBXTextBookmark */;
+			0AFC0ED01058654400B34EED = 0AFC0ED01058654400B34EED /* PBXTextBookmark */;
 		};
 		sourceControlManager = 0A930603104393CC000F2341 /* Source Control */;
 		userBuildSettings = {
@@ -906,22 +558,22 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1596, 850}}";
 			sepNavSelRange = "{1564, 0}";
-			sepNavVisRange = "{0, 399}";
+			sepNavVisRange = "{0, 1212}";
 		};
 	};
 	77631A3E0C0748CF005415CB /* main.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {841, 447}}";
-			sepNavSelRange = "{215, 0}";
-			sepNavVisRange = "{0, 486}";
+			sepNavIntBoundsRect = "{{0, 0}, {877, 539}}";
+			sepNavSelRange = "{23, 0}";
+			sepNavVisRange = "{0, 510}";
 			sepNavWindowFrame = "{{19, 213}, {1161, 556}}";
 		};
 	};
 	7790198E0C07548A00326F66 /* FlukeAppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 539}}";
-			sepNavSelRange = "{464, 0}";
-			sepNavVisRange = "{0, 465}";
+			sepNavIntBoundsRect = "{{0, 0}, {877, 539}}";
+			sepNavSelRange = "{0, 23}";
+			sepNavVisRange = "{0, 489}";
 		};
 	};
 	8D1107260486CEB800E47090 /* Fluke */ = {
